@@ -37,6 +37,11 @@ if __name__ == '__main__':
 	print d[0]
 	d.merge({1:300, 2:400})
 	print d
+	print "~~~~"
+	print d.keys()
+	exec "x=5; print x" in d
+	print d.keys()
+	print d["x"]
 
 	print "-----"
 	built_dict = dict()
